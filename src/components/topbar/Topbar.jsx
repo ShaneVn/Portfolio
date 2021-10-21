@@ -14,10 +14,10 @@ export default function Topbar({menuOpen, setMenuOpen}) {
                    
 
                     <a href="#intro" className="logo">My Page.</a>
-                    <div className="itemContainer">
+                    {/* <div className="itemContainer">
                     <Person className="icon"/>
-                    <span>+1 714-494-5680</span>
-                    </div>
+                    <span></span>
+                    </div> */}
 
                     <div className="itemContainer">
                     <Mail className="icon"/>
