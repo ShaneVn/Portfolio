@@ -7,7 +7,8 @@ export default function Testimonial() {
       <div className="container">
         <div className="card">
           <div className="top">
-              <img src="/image/right-arrow.png" className="left" alt="" />
+              <img src="/image/right-arrow.png" className="left" alt="left-arrow" />
+              <img src="/image/Apple_logo_grey.png" alt="apple-logo" />
           </div>
           <div className="center"></div>
           <div className="bottom"></div>
