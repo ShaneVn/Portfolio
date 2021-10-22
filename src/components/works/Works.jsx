@@ -11,7 +11,7 @@ export default function Works() {
             img: "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930",
             desc: "My name is Shane Xian, I enjoy web development and create different projects. I am fluent in Chinese and English.",
             title: "About me",
-            link:"Resume"
+            
 
         } ,
 

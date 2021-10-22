@@ -11,7 +11,7 @@ export default function Testimonial() {
   logo:
   "/image/Apple_logo_grey.png",
   icon: "/image/right-arrow.png",
-  lineOne: "• Verify content accuracy, ensuring it meets the provided standards",
+  lineOne: "• Verify content accuracy",
   lineTwo: " • Make edits, fixes, or suggestions to the data content when needed",
   lineThree: "• Report any patterns of issues observed to help improve database and product performance",
   
@@ -25,7 +25,7 @@ export default function Testimonial() {
     icon: "/image/right-arrow.png",
     lineOne: "•  Interact and assist Autopilot Engineers to provide high quality data",
     lineTwo: " • Work with a user interface for image and data labeling",
-    lineThree: "• Collaborate with the annotation team to ensure that annotations meet project requirements and deliver high-quality data under deadline",
+    lineThree: "• ensure that annotations meet project requirements and deliver high-quality data under deadline",
     feature: true,
     },
 

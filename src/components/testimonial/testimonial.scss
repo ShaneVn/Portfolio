@@ -1,12 +1,22 @@
+@import '../../global.scss';
+
 .testimonials {
   background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
 
+  @include mobile{
+    justify-content: space-around;
+  }
+
   h1 {
     font-size: 50px;
     overflow: hidden;
+
+    @include mobile{
+      font-size: 20px;
+    }
   }
 
   .container {
@@ -15,6 +25,10 @@
     display: flex;
     align-items: center;
     justify-content: center;
+
+    @include mobile{
+      flex-direction: column;
+    }
 
     .card {
       width: 250px;
@@ -27,10 +41,23 @@
       padding: 30px;
       transition: all 1s ease;
 
+      @include mobile{
+        height: 180px;
+
+      }
+
       &.feature{
         width: 300px;
         height: 75%;
         margin: 0 40px;
+
+        @include mobile{
+          width: 250px;
+          height: 180px;
+          margin: 1px;
+          
+        }
+  
       }
 
       &:hover{
@@ -51,6 +78,14 @@
 
           &.logo {
             width: 150px;
+
+            @include mobile{
+              width: 50px;
+              
+              
+              
+            }
+      
           }
         }
       }
@@ -62,6 +97,12 @@
           align-items: center;
           flex-direction: column;
           justify-content: center;
+
+          @include mobile{
+              font-size: 12px;
+              padding: 5px;
+              
+          }
       }
 
       .bottom {
@@ -70,12 +111,27 @@
         background-color: rgb(250, 244, 245);
         border-radius: 10px;
         padding: 10px;
+
+        @include mobile{
+         background-color: white;
+          
+      }
       }
 
       h4{
           color: grey;
           margin-top: 10px;
+          font-size: 13px;
       }
     }
   }
+}
+
+
+p{
+
+  @include mobile{
+    display: none;
+    
+}
 }
