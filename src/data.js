@@ -20,22 +20,22 @@ export const reactProject =[
 
     {
         id: 4,
-        title: "Neflix Clone",
-        img: "/image/netflix-clone.jpg",
+        title: "Social Media App",
+        img: "/image/Social.PNG",
         link:"https://shanevn.github.io/react-netflix-clone/"
     }, 
 
     {
         id: 5,
-        title: "Neflix Clone",
-        img: "/image/netflix-clone.jpg",
+        title: "Product Startup Page",
+        img: "/image/Product.PNG",
         link:"https://shanevn.github.io/react-netflix-clone/"
     }, 
 
     {
         id: 6,
-        title: "Neflix Clone",
-        img: "/image/netflix-clone.jpg",
+        title: "Weather App",
+        img: "/image/Weather.png",
         link:"https://shanevn.github.io/react-netflix-clone/"
     }, 
 
