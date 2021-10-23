@@ -1,12 +1,13 @@
-@import '../../global.scss';
+@import "../../global.scss";
 
 .testimonials {
   background-color: white;
   display: flex;
   flex-direction: column;
   align-items: center;
+  
 
-  @include mobile{
+  @include mobile {
     justify-content: space-around;
   }
 
@@ -14,7 +15,7 @@
     font-size: 50px;
     overflow: hidden;
 
-    @include mobile{
+    @include mobile {
       font-size: 20px;
     }
   }
@@ -25,8 +26,9 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    
 
-    @include mobile{
+    @include mobile {
       flex-direction: column;
     }
 
@@ -40,27 +42,26 @@
       justify-content: space-around;
       padding: 30px;
       transition: all 1s ease;
+      overflow-y: hidden;
 
-      @include mobile{
+      @include mobile {
         height: 180px;
-
       }
 
-      &.feature{
+      &.feature {
         width: 300px;
         height: 75%;
         margin: 0 40px;
+        
 
-        @include mobile{
+        @include mobile {
           width: 250px;
           height: 180px;
           margin: 1px;
-          
         }
-  
       }
 
-      &:hover{
+      &:hover {
         transform: scale(1.1);
       }
 
@@ -68,41 +69,36 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        overflow-y: hidden;
 
         img {
-         
-
           &.left {
             height: 25px;
+            
           }
 
           &.logo {
             width: 150px;
+            
 
-            @include mobile{
+            @include mobile {
               width: 50px;
-              
-              
-              
             }
-      
           }
         }
       }
 
-     
+      .center {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        overflow-y: hidden;
 
-      .center{
-          display: flex;
-          align-items: center;
-          flex-direction: column;
-          justify-content: center;
-
-          @include mobile{
-              font-size: 12px;
-              padding: 5px;
-              
-          }
+        @include mobile {
+          font-size: 12px;
+          padding: 5px;
+        }
       }
 
       .bottom {
@@ -111,27 +107,32 @@
         background-color: rgb(250, 244, 245);
         border-radius: 10px;
         padding: 10px;
+        overflow-y: hidden;
 
-        @include mobile{
-         background-color: white;
-          
-      }
+        @include mobile {
+          background-color: white;
+        }
       }
 
-      h4{
-          color: grey;
-          margin-top: 10px;
-          font-size: 13px;
+      h4 {
+        color: grey;
+        margin-top: 10px;
+        font-size: 13px;
+        overflow-y: hidden;
+    
+        
+      }
+      h3{
+        overflow-y: hidden;
+   
       }
     }
   }
 }
 
-
-p{
-
-  @include mobile{
+p {
+  
+  @include mobile {
     display: none;
-    
-}
+  }
 }

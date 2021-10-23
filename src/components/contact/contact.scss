@@ -3,6 +3,7 @@
 .contact {
   background-color: white;
   display: flex;
+  
 
   @include mobile {
     flex-direction: column;
@@ -11,12 +12,14 @@
   .left {
     flex: 1;
     overflow: hidden;
+    
 
     img {
       height: 100%;
     }
   }
   .right {
+    
     flex: 1;
     display: flex;
     flex-direction: column;
@@ -25,7 +28,8 @@
 
     h2 {
       font-size: 30px;
-    }
+      overflow-y: hidden;
+     }
 
     form {
       width: 70%;
@@ -66,7 +70,8 @@
         border-radius: 10px;
         font-weight: 500;
         cursor: pointer;
-
+        overflow-y: hidden;
+ 
         &:focus {
           outline: none;
         }
