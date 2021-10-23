@@ -36,8 +36,8 @@ export default function Testimonial() {
     logo:
     "/image/SJSU.png",
     icon: "/image/right-arrow.png",
-    lineOne:" Bachelor of Science",
-    lineTwo: "Graduated Fall 2018",
+    lineOne:"  • Bachelor of Science",
+    lineTwo: " • Graduated Fall 2018",
     
 }
   ]
@@ -67,13 +67,12 @@ export default function Testimonial() {
           </div>
           <div className="bottom">
             <p class="des">
-              {" "}
-              {d.lineOne} <br />
-              <br />
-              {d.lineTwo}
-              <br />
-              <br /> {d.lineThree}
+              {d.lineOne} 
             </p>
+            <p>  {d.lineTwo}
+             
+            </p>
+            <p> {d.lineThree}</p>
           </div>
         </div>
       ))}

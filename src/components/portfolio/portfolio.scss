@@ -1,9 +1,7 @@
 @import "../../global.scss";
- 
 
 ul * {
   overflow-y: hidden;
-    
 }
 
 .portfolio {
@@ -11,16 +9,13 @@ ul * {
   display: flex;
   flex-direction: column;
   align-items: center;
-  
 
   h1 {
     font-size: 50px;
     overflow-y: hidden;
-    
 
     @include mobile {
       font-size: 20px;
-      
     }
   }
 
@@ -30,7 +25,7 @@ ul * {
     list-style: none;
     display: flex;
     overflow-y: hidden;
- 
+
     margin-bottom: 50px;
 
     @include mobile {
@@ -44,9 +39,9 @@ ul * {
     overflow-y: hidden;
     width: 60%;
 
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-gap: 4em;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 
     @include mobile {
       width: 100%;
@@ -57,8 +52,8 @@ ul * {
     }
 
     .item {
-      width: 270px;
-      height: 170px;
+      width: 30%;
+
       border-radius: 20px;
       border: 1px solid rgb(240, 239, 239);
 
@@ -67,7 +62,7 @@ ul * {
       align-items: center;
       justify-content: center;
       color: white;
-      position: relative;
+
       transition: all 0.5s ease;
       cursor: pointer;
       overflow-y: hidden;
