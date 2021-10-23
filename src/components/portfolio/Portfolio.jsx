@@ -1,7 +1,13 @@
 import PortfolioList from "../portfolioList/PortfolioList";
 import "./portfolio.scss";
 import { useState, useEffect } from "react";
-import { reactProject, javaScriptProject } from "../../data.js";
+import {
+  reactProject,
+  javaScriptProject,
+  typeScriptProject,
+  nodeProject,
+  cssProject,
+} from "../../data.js";
 
 export default function Portfolio() {
   const [selected, setSelected] = useState("react");
@@ -11,27 +17,27 @@ export default function Portfolio() {
     {
       category: "react",
       title: "React",
-      id:1
+      id: 1,
     },
     {
       category: "javaScript",
       title: "JavaScript",
-      id: 2
+      id: 2,
     },
     {
       category: "typeScript",
       title: "TypeScript",
-      id: 3
+      id: 3,
     },
     {
       category: "node",
       title: "Node.js",
-      id: 4
+      id: 4,
     },
     {
       category: "css",
       title: "CSS",
-      id: 5
+      id: 5,
     },
   ];
 
@@ -40,20 +46,20 @@ export default function Portfolio() {
       case "react":
         setData(reactProject);
         break;
-      case "javaScript":   
+      case "javaScript":
         setData(javaScriptProject);
         break;
       case "typeScript":
-        setData();
+        setData(typeScriptProject);
         break;
       case "node":
-        setData();
+        setData(nodeProject);
         break;
       case "css":
-        setData();
+        setData(cssProject);
         break;
-        default:
-          setData(reactProject)
+      default:
+        setData(reactProject);
     }
   }, [selected]);
 
@@ -73,24 +79,15 @@ export default function Portfolio() {
       </ul>
 
       <div className="container">
-
-        {data.map((d)=>(
-          <div className="item" key = {d.id}>
-          <a
-            className="links"
-            href={d.link}
-            target="_blank"
-            rel="noreferrer"
-          >
-            {" "}
-            <img src={d.img} alt={d.title} />{" "}
-          </a>
-          <h3>{d.title}</h3>
-        </div>
-
+        {data.map((d) => (
+          <div className="item" key={d.id}>
+            <a className="links" href={d.link} target="_blank" rel="noreferrer">
+              {" "}
+              <img src={d.img} alt={d.title} />{" "}
+            </a>
+            <h3>{d.title}</h3>
+          </div>
         ))}
-        
-        
       </div>
     </div>
   );

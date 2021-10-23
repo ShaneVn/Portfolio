@@ -48,5 +48,34 @@ export const javaScriptProject=[
         title: "RPG Game",
         img:"/image/RPG.png",
         link:""
+    } ,
+    
+    {
+        id:2 ,
+        title: "Pac-Man Game",
+        img:"/image/pac-man.png",
+        link:"https://shanevn.github.io/vanilla-pac-man/"
+    } 
+]
+
+
+
+export const typeScriptProject = [
+    {
+
+    }
+]
+
+
+export const nodeProject = [
+    {
+
+
+}]
+  
+
+export const cssProject = [
+    {
+        
     }
 ]
