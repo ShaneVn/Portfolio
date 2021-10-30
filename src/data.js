@@ -27,16 +27,16 @@ export const reactProject =[
 
     {
         id: 5,
-        title: "Product Startup Page",
+        title: "Travel Page",
         img: "/image/Product.PNG",
-        link:"https://shanevn.github.io/react-netflix-clone/"
+        link:"https://shane-travel-page.netlify.app/"
     }, 
 
     {
         id: 6,
-        title: "Weather App",
-        img: "/image/Weather.png",
-        link:"https://shanevn.github.io/react-netflix-clone/"
+        title: "Movie Search app",
+        img: "/image/movie.png",
+        link:"http://ShaneVn.github.io/react-movie-search-app"
     }, 
 
 

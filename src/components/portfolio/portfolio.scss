@@ -43,6 +43,9 @@ ul * {
   .container {
     overflow-y: hidden;
     width: 60%;
+   
+
+   
 
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -57,7 +60,7 @@ ul * {
     }
 
     .item {
-      width: 270px;
+      max-width: 270px;
       height: 170px;
       border-radius: 20px;
       border: 1px solid rgb(240, 239, 239);
