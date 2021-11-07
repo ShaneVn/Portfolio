@@ -6,6 +6,10 @@
   align-items: center;
   position: relative;
 
+  @include mobile {
+    width: 80%;     
+  }
+
   .arrow{
       height: 50px;
       position: absolute;
@@ -36,9 +40,7 @@
     transition: all 1s ease-out;
 
     @include mobile {
-      height: 100vh;
-      flex-direction: column;
-      justify-content: center;
+      
     }
 
   }
@@ -49,6 +51,7 @@
     align-items: center;
     justify-content: center;
     
+  
   }
 
   .item {
@@ -61,9 +64,7 @@
     justify-content: center;
 
     @include mobile {
-      width: 80%;
-      height: 150px;
-      margin: 15px 0;
+        width: 450px;
     }
 
     .left {
@@ -92,8 +93,7 @@
           justify-content: center;
           
           @include mobile {
-            width: 20px;
-            height: 20px;
+          
           }
 
         }
@@ -102,7 +102,7 @@
           width: 25px;
 
           @include mobile {
-            width: 15px;
+            
           }
         }
 
@@ -153,3 +153,4 @@
     }
   }
 }
+

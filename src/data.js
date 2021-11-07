@@ -45,8 +45,8 @@ export const reactProject =[
 export const javaScriptProject=[
     {
         id:1 ,
-        title: "RPG Game",
-        img:"/image/RPG.png",
+        title: "War",
+        img:"/image/war-game.png",
         link:""
     } ,
     
