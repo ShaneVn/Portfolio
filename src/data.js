@@ -55,13 +55,25 @@ export const javaScriptProject=[
         title: "Pac-Man Game",
         img:"/image/pac-man.png",
         link:"https://shanevn.github.io/vanilla-pac-man/"
-    } 
+    } ,
+    
+    {
+        id:3,
+        title:"personal-dashboard",
+        link:"https://shanevn.github.io/vanilla-personal-dashboard/",
+        img:"/image/dashboard.png"
+    }
 ]
 
 
 
 export const typeScriptProject = [
     {
+        id:1,
+        title:"react-with-typescript",
+        link:"https://shane-react-with-typescript.netlify.app/",
+        img:"/image/typescript.PNG"
+
 
     }
 ]
