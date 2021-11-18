@@ -109,6 +109,13 @@
         padding: 10px;
         overflow-y: hidden;
 
+        .des {
+  
+          @include mobile {
+            display: none;
+          }
+        }
+
         @include mobile {
           background-color: white;
         }
@@ -130,9 +137,4 @@
   }
 }
 
-.des {
-  
-  @include mobile {
-    display: none;
-  }
-}
+
