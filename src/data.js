@@ -8,13 +8,13 @@ export const reactProject = [
   {
     id: 2,
     title: "Twitter Clone",
-    img: "/image/twitter-clone.png",
+    img: "/image/twitter-clone.PNG",
     link: "https://twitter-clone-shanevn.vercel.app/",
   },
   {
     id: 3,
     title: "Todo App",
-    img: "/image/Todo.png",
+    img: "/image/Todo.PNG",
     link: "http://ShaneVn.github.io/react-todo-app", 
   },
 
@@ -35,7 +35,7 @@ export const reactProject = [
   {
     id: 6,
     title: "Movie Search app",
-    img: "/image/movie.png",
+    img: "/image/movie.PNG",
     link: "http://ShaneVn.github.io/react-movie-search-app",
   },
 ];
@@ -45,13 +45,13 @@ export const javaScriptProject = [
     id: 1,
     title: "personal-dashboard",
     link: "https://shanevn.github.io/vanilla-personal-dashboard/",
-    img: "/image/dashboard.png",
+    img: "/image/dashboard.PNG",
   },
 
   {
     id: 2,
     title: "Pac-Man Game",
-    img: "/image/pac-man.png",
+    img: "/image/pac-man.PNG",
     link: "https://shanevn.github.io/vanilla-pac-man/",
   },
 ];
