@@ -15,7 +15,7 @@ export const reactProject = [
     id: 3,
     title: "Todo App",
     img: "/image/Todo.png",
-    link: "http://ShaneVn.github.io/react-todo-app",
+    link: "http://ShaneVn.github.io/react-todo-app", 
   },
 
   {
