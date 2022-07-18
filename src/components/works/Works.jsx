@@ -18,7 +18,7 @@ export default function Works() {
         {   id : 2,
             icon : "/image/globe.png",
             img: "https://99designs-blog.imgix.net/blog/wp-content/uploads/2018/10/attachment_100040756-e1538485934255.jpeg?auto=format&q=60&fit=max&w=930",
-            desc: " Experience with HTML, CSS, JavaScript, TypeScript, React, Firebase, Git, Bootstrap, APIs, Python, SQL, Node.js.",
+            desc: " Experience with HTML, CSS, JavaScript, TypeScript, React.js, Next.js, Firebase, Git, Tailwind CSS, APIs, Python, SQL, Node.js, Redux, Recoil.",
             title: "Technologies"
 
         } ,

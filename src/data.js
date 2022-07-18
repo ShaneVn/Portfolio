@@ -7,9 +7,9 @@ export const reactProject = [
   },
   {
     id: 2,
-    title: "Mock E-commerce",
-    img: "/image/E-commerce.png",
-    link: "http://ShaneVn.github.io/react-small-ecommerce-mock-website",
+    title: "Twitter Clone",
+    img: "/image/twitter-clone.png",
+    link: "https://twitter-clone-shanevn.vercel.app/",
   },
   {
     id: 3,
@@ -20,9 +20,9 @@ export const reactProject = [
 
   {
     id: 4,
-    title: "Social Media App",
-    img: "/image/Social.PNG",
-    link: "https://github.com/ShaneVn/mern-social-media",
+    title: "Discord Clone",
+    img: "/image/discord-clone.PNG",
+    link: "https://discord-clone-rouge.vercel.app/",
   },
 
   {
