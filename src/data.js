@@ -22,7 +22,7 @@ export const reactProject = [
     id: 4,
     title: "Discord Clone",
     img: "/image/discord-clone.PNG",
-    link: "https://discord-clone-rouge.vercel.app/",
+    link: "https://discord-clone-v2.vercel.app/",
   },
 
   {
