@@ -7,9 +7,9 @@ export const reactProject = [
   },
   {
     id: 2,
-    title: "Twitter Clone",
+    title: "Blog Post App",
     img: "/image/twitter-clone.PNG",
-    link: "https://twitter-clone-shanevn.vercel.app/",
+    link: "https://shane-real-time-blog-post.vercel.app/",
   },
   {
     id: 3,
@@ -20,9 +20,9 @@ export const reactProject = [
 
   {
     id: 4,
-    title: "Discord Clone",
+    title: "Chat App",
     img: "/image/discord-clone.PNG",
-    link: "https://discord-clone-v2-9t1zyxt1z-shanevn.vercel.app/",
+    link: "https://real-time-chat-app-shanevn.vercel.app/",
   },
 
   {
