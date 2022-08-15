@@ -13,9 +13,9 @@ export const reactProject = [
   },
   {
     id: 3,
-    title: "Todo App",
-    img: "/image/Todo.PNG",
-    link: "http://ShaneVn.github.io/react-todo-app", 
+    title: "Restaurant Landing Page",
+    img: "/image/frontpage.png",
+    link: "https://restaurant-landing-page-shanevn.vercel.app/",
   },
 
   {
@@ -53,6 +53,13 @@ export const javaScriptProject = [
     title: "Pac-Man Game",
     img: "/image/pac-man.PNG",
     link: "https://shanevn.github.io/vanilla-pac-man/",
+  },
+
+  {
+    id: 3,
+    title: "Todo App",
+    img: "/image/Todo.PNG",
+    link: "http://ShaneVn.github.io/react-todo-app",
   },
 ];
 

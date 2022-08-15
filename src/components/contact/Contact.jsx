@@ -8,7 +8,13 @@ export default function Contact() {
 
         e.preventDefault()
         setMessage(true)
+        e.target.reset()
+
+        setTimeout(()=>{
+            setMessage(false)
+        }, 2000)
     }
+
     return (
         <div className="contact" id="contact">
             <div className="left">
