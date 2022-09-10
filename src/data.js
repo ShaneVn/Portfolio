@@ -14,8 +14,8 @@ export const reactProject = [
   {
     id: 3,
     title: "Restaurant Landing Page",
-    img: "/image/frontpage.png",
-    link: "https://restaurant-landing-page-shanevn.vercel.app/",
+    img: "/image/landing-page-cover.png",
+    link: "https://restaurant-landing-page-shane.herokuapp.com/",
   },
 
   {
